@@ -5,3 +5,9 @@ gem "github-pages", group: :jekyll_plugins
 github:
   zip_url: https://github.com/Eduardo-vsouza/rp3/releases/tag/Rp3_v1.1.0
   GitHub: https://github.com/Eduardo-vsouza/rp3
+
+# Custom CSS
+sass:
+  style: compressed
+includes:
+  - assets/css/custom.css

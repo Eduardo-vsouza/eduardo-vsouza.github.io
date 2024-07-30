@@ -1,0 +1,8 @@
+.site-title a {
+  display: block;
+  width: 230px; /* Adjust as needed */
+  height: 150px; /* Adjust as needed */
+  background-image: url('https://github.com/Eduardo-vsouza/rp3/assets/60533781/ee5208ad-5a1a-42a0-830e-13fbfc8cef20');
+  background-size: cover;
+  text-indent: -9999px; /* Hide text */
+}
