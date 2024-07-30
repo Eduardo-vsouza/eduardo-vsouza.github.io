@@ -1,3 +1,5 @@
+@import "{{ site.theme }}";
+
 .site-title a {
   display: block;
   width: 230px; /* Adjust as needed */
