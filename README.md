@@ -30,16 +30,16 @@ Typical installation time will vary depending on how many dependencies requireme
 5. Install dependencies
 	To avoid incompatibility, make sure to have installed the versions for each tool that was used during the development of RP3. You can install alternative versions at your own risk. Compatibility is not guaranteed.
 
-| Tool                             | Version          | Purpose   | Link         |
-|----------------------------------|------------------|-----------|--------------|
-| MSFragger                        | 3.5              | Match MS spectra against protein database   | https://msfragger.nesvilab.org/ |
-| Percolator                       | 3.06.1           | Post-process MSFragger results and infer FDR | percolator.ms |
-| NCBI Blast			   | 2.12.0	      | Local alignment of microproteins | https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.12.0/ncbi-blast-2.12.0+-src.tar.gz |
-| STAR				   | 2.7.4a	      | Alignment of short-reads to the genome in a splice-aware manner | https://github.com/alexdobin/STAR/archive/2.5.3a.tar.gz |
-| StringTie			   | 2.2.1 	      | Reference-guided transcriptome assembly | https://github.com/gpertea/stringtie/releases/tag/v2.2.1 |
-| Subread			   | 1.6.3	      | Contains featureCounts, used to perform read counting for Ribo-Seq data in the ``ribocov`` mode | https://sourceforge.net/projects/subread/files/subread-1.6.3/ |
-| samtools			   | 1.18	      | Performs a variety of data processing for ``.sam`` and ``.bam`` files | https://github.com/samtools/samtools/releases/tag/1.18 |
-| MSBooster			   | 1.2.1	      | Predicts Retention Times and add delta_RT_loess to ``.pin`` files coming from MSFragger | https://github.com/Nesvilab/MSBooster/releases/tag/v1.2.1 |
+| Tool          | Mode                                     | Version          | Purpose   | Link                                                                                                   |
+|--------------|------------------------------------------|------------------|-----------|--------------------------------------------------------------------------------------------------------|
+| MSFragger    | search, rescore                          | 3.5              | Match MS spectra against protein database   | [Download](https://msfragger.nesvilab.org/)                                                            |
+| Percolator    | search, postms, rescore                  | 3.06.1           | Post-process MSFragger results and infer FDR | [Download](percolator.ms)                                                                              |
+| NCBI Blast	| search (--refseq), anno (--conservation) | 2.12.0	      | Local alignment of microproteins | [Download](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.12.0/ncbi-blast-2.12.0+-src.tar.gz) |
+| STAR			| 	        ribocov, rna                    | 2.7.4a	      | Alignment of short-reads to the genome in a splice-aware manner | [Download](https://github.com/alexdobin/STAR/archive/2.5.3a.tar.gz)                                    |
+| StringTie		| 	             rna                        | 2.2.1 	      | Reference-guided transcriptome assembly | [Download](https://github.com/gpertea/stringtie/releases/tag/v2.2.1)                                   |
+| Subread		| 	                  ribocov               | 1.6.3	      | Contains featureCounts, used to perform read counting for Ribo-Seq data in the ``ribocov`` mode | [Download](https://sourceforge.net/projects/subread/files/subread-1.6.3/)                              |
+| samtools		| 	                    ribocov, rna        | 1.18	      | Performs a variety of data processing for ``.sam`` and ``.bam`` files | [Download](https://github.com/samtools/samtools/releases/tag/1.18)                                     |
+| MSBooster		| 	                  search, rescore       | 1.2.1	      | Predicts Retention Times and add delta_RT_loess to ``.pin`` files coming from MSFragger | [Download](https://github.com/Nesvilab/MSBooster/releases/tag/v1.2.1)                                  |
 
 	
 6.  **Important**. Configure the Paths to each of the dependencies in the file config.txt located inside the RP3 folder. Replace the $PATH to each tool **executable** in its respective column. By default, the pipeline will look for the tools in your $PATH.
