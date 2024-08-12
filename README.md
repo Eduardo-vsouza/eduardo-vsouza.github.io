@@ -476,14 +476,14 @@ Vieira de Souza E, L. Bookout A, Barnes CA, Miller B, Machado P, Basso LA, Bizar
 Additionally, depending on which mode you ran and which parameters you used, cite the appropriate software used during the workflow:\
 ### ``database`` mode
 - Cite the paper that presented GTFtoFasta
-  - Martinez, T.F., Chu, Q., Donaldson, C., Tan, D., Shokhirev, M.N. and Saghatelian, A., 2020. Accurate annotation of human protein-coding small open reading frames. Nature chemical biology, 16(4), pp.458-468.
+  - Martinez, T.F., Chu, Q., Donaldson, C., Tan, D., Shokhirev, M.N. and Saghatelian, A., 2020. Accurate annotation of human protein-coding small open reading frames. Nature chemical biology, 16(4), pp.458-468.\
 ### ``search`` and ``rescore`` mode
 - Cite MSFragger:
   - Kong, A.T., Leprevost, F.V., Avtonomov, D.M., Mellacheruvu, D. and Nesvizhskii, A.I., 2017. MSFragger: ultrafast and comprehensive peptide identification in mass spectrometry–based proteomics. Nature methods, 14(5), pp.513-520.\
 - Cite Percolator 
   - Käll, L., Canterbury, J.D., Weston, J., Noble, W.S. and MacCoss, M.J., 2007. Semi-supervised learning for peptide identification from shotgun proteomics datasets. Nature methods, 4(11), pp.923-925.
 - If you used the flag ``--MSBooster``, cite MSBooster:
-  - Yang, K.L., Yu, F., Teo, G.C., Li, K., Demichev, V., Ralser, M. and Nesvizhskii, A.I., 2023. MSBooster: improving peptide identification rates using deep learning-based features. Nature Communications, 14(1), p.4539.
+  - Yang, K.L., Yu, F., Teo, G.C., Li, K., Demichev, V., Ralser, M. and Nesvizhskii, A.I., 2023. MSBooster: improving peptide identification rates using deep learning-based features. Nature Communications, 14(1), p.4539.\
 ### ``ribocov`` mode
 - Cite STAR:
   - Dobin, A., Davis, C.A., Schlesinger, F., Drenkow, J., Zaleski, C., Jha, S., Batut, P., Chaisson, M. and Gingeras, T.R., 2013. STAR: ultrafast universal RNA-seq aligner. Bioinformatics, 29(1), pp.15-21.
